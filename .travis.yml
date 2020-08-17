@@ -33,6 +33,7 @@ install:
      wget -O $HOME/bin-black/black https://github.com/python/black/releases/download/19.10b0/black
      chmod +x $HOME/bin-black/black
      export PATH=$PATH:$HOME/bin-black
+  fi
 - black --version
 
 - make init
