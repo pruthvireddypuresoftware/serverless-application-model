@@ -1,5 +1,8 @@
 # Enable container based builds
 sudo: false
+arch:
+  - amd64
+  - arm64
 dist: xenial   # required for Python >= 3.7
 language: python
 
